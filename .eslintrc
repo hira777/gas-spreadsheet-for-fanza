@@ -1,0 +1,17 @@
+{
+  "env": {
+    "es6": true,
+    "googleappsscript/googleappsscript": true
+  },
+  "plugins": ["googleappsscript"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "rules": {
+    "prettier/prettier": ["error", { "singleQuote": true }]
+  }
+}
